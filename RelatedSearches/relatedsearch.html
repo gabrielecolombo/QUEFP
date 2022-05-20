@@ -1,0 +1,134 @@
+<!doctype html>
+<html class="export" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Filter &amp; sort magical layouts">
+
+  <title>Isotope &#xB7; Filter &amp; sort magical layouts</title>
+  <link rel="stylesheet" href="css/filtering.css" media="screen">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@metafizzyco">
+  <meta name="twitter:url" content="https://isotope.metafizzy.co/index.html">
+  <meta name="twitter:title" content="Isotope">
+  <meta name="twitter:description" content="Filter &amp; sort magical layouts">
+
+
+</head>
+
+<body class="page--index">
+
+
+  <h1>Isotope - filtering &amp; sorting</h1>
+  <h2>Filter by seed query</h2>
+  <div id="filters" class="button-group"> <button class="button is-checked" data-filter="*">show all</button>
+    <button class="button" data-filter=".QueenElizabethForestPark">Queen Elizabeth Forest Park</button>
+    <button class="button" data-filter=".RelatedSearches">RelatedSearches</button>
+    <button class="button" data-filter=".PopularTopics">Popular Topics</button>
+    <button class="button" data-filter=".metal">metal</button>
+    <button class="button" data-filter=".transition">transition</button>
+    <button class="button" data-filter=".related-search">Related Search</button>
+    <button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>
+    <button class="button" data-filter=":not(.transition)">not transition</button>
+    <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button>
+    <button class="button" data-filter="numberGreaterThan50">number > 50</button>
+    <button class="button" data-filter="ium">name ends with &ndash;ium</button>
+    <button class="button" data-filter="on">contains on</button>
+  </div>
+
+  <h2>Sort</h2>
+  <div id="sorts" class="button-group"> <button class="button is-checked" data-sort-by="original-order">original order</button>
+    <button class="button" data-sort-by="name">name</button>
+    <button class="button" data-sort-by="symbol">symbol</button>
+    <button class="button" data-sort-by="number">number</button>
+    <button class="button" data-sort-by="weight">weight</button>
+    <button class="button" data-sort-by="category">category</button>
+  </div>
+
+  <div class="grid">
+
+
+    <div class="element-item QueenElizabethForestParkMap PopularTopics " data-category="RelatedSearches">
+      <h3 class="name">Trossachs</h3>
+      <img src="img/0041.png">
+    </div>
+
+    <div class="element-item QueenElizabethForestPark RelatedSearches " data-category="RelatedSearches">
+      <h3 class="name">Queen elizabeth forest park map</h3>
+      <img src="img/0001.png">
+    </div>
+
+    <div class="element-item QueenElizabethForestParkMap PopularTopics " data-category="RelatedSearches">
+      <h3 class="name">Trossachs</h3>
+      <img src="img/0041.png">
+    </div>
+
+    <div class="element-item QueenElizabethForestPark RelatedSearches " data-category="RelatedSearches">
+      <h3 class="name">Queen elizabeth forest park map</h3>
+      <img src="img/0001.png">
+    </div>
+
+    <div class="element-item QueenElizabethForestParkMap PopularTopics " data-category="RelatedSearches">
+      <h3 class="name">Trossachs</h3>
+      <img src="img/0041.png">
+    </div>
+
+    <div class="element-item QueenElizabethForestPark RelatedSearches " data-category="RelatedSearches">
+      <h3 class="name">Queen elizabeth forest park map</h3>
+      <img src="img/0001.png">
+    </div>
+
+
+        <div class="element-item QueenElizabethForestParkMap PopularTopics " data-category="PopularTopics">
+          <h3 class="name">Trossachs</h3>
+          <img src="img/0041.png">
+        </div>
+
+        <div class="element-item QueenElizabethForestPark RelatedSearches " data-category="RelatedSearches">
+          <h3 class="name">Queen elizabeth forest park map</h3>
+          <img src="img/0001.png">
+        </div>
+
+        <div class="element-item QueenElizabethForestParkMap PopularTopics " data-category="RelatedSearches">
+          <h3 class="name">Trossachs</h3>
+          <img src="img/0041.png">
+        </div>
+
+        <div class="element-item QueenElizabethForestPark RelatedSearches " data-category="RelatedSearches">
+          <h3 class="name">Queen elizabeth forest park map</h3>
+          <img src="img/0012.png">
+        </div>
+
+        <div class="element-item QueenElizabethForestParkMap PopularTopics " data-category="RelatedSearches">
+          <h3 class="name">Trossachs</h3>
+          <img src="img/0013.png">
+        </div>
+
+        <div class="element-item QueenElizabethForestPark RelatedSearches ">
+          <h3 class="name">Queen elizabeth forest park map</h3>
+          <p class="weight">9</p>
+          <a href="https://www.google.com/search?q=Queen+elizabeth+forest+park+map">
+            <img src="img/0014.png">
+          </a>
+        </div>
+
+
+  </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+  </script>
+  <script src="js/isotope-docs.min.js?6"></script>
+  <script src="js/filtering.js"></script>
+
+
+</body>
+
+</html>
