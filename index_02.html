@@ -1,0 +1,113 @@
+<!doctype html>
+<html class="export" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Filter &amp; sort magical layouts">
+
+  <title>Isotope &#xB7; Filter &amp; sort magical layouts</title>
+  <link rel="stylesheet" href="css/filtering.css" media="screen">
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@metafizzyco">
+  <meta name="twitter:url" content="https://isotope.metafizzy.co/index.html">
+  <meta name="twitter:title" content="Isotope">
+  <meta name="twitter:description" content="Filter &amp; sort magical layouts">
+
+
+</head>
+
+<body class="page--index">
+
+  <h1>Isotope - combination filters &amp; search</h1>
+
+
+  <p><input type="text" class="quicksearch" placeholder="Search" /></p>
+
+  <div class="filters">
+
+    <div class="ui-group">
+      <h3>Color</h3>
+      <div class="button-group js-radio-button-group" data-filter-group="color">
+        <button class="button is-checked" data-filter="">any</button>
+        <button class="button" data-filter=".red">red</button>
+        <button class="button" data-filter=".blue">blue</button>
+        <button class="button" data-filter=".yellow">yellow</button>
+      </div>
+    </div>
+
+    <div class="ui-group">
+      <h3>Size</h3>
+      <div class="button-group js-radio-button-group" data-filter-group="size">
+        <button class="button is-checked" data-filter="">any</button>
+        <button class="button" data-filter=".small">small</button>
+        <button class="button" data-filter=".wide">wide</button>
+        <button class="button" data-filter=".big">big</button>
+        <button class="button" data-filter=".tall">tall</button>
+      </div>
+    </div>
+
+    <div class="ui-group">
+      <h3>Shape</h3>
+      <div class="button-group js-radio-button-group" data-filter-group="shape">
+        <button class="button is-checked" data-filter="">any</button>
+        <button class="button" data-filter=".round">round</button>
+        <button class="button" data-filter=".square">square</button>
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+  <div class="grid">
+
+
+
+    <div class="color-shape small round red"><h3 class="name">Queen Elizabeth Forest Park Map</h3></div>
+    <div class="color-shape small round blue">Helium</div>
+    <div class="color-shape small round yellow">Lithium</div>
+    <div class="color-shape small square red">Beryllium</div>
+    <div class="color-shape small square blue">Boron</div>
+    <div class="color-shape small square yellow">Carbon</div>
+    <div class="color-shape wide round red">Nitrogen</div>
+    <div class="color-shape wide round blue">Oxygen</div>
+    <div class="color-shape wide round yellow">Fluorine</div>
+    <div class="color-shape wide square red">Neon</div>
+    <div class="color-shape wide square blue">Sodium</div>
+    <div class="color-shape wide square yellow">Magnesium</div>
+    <div class="color-shape big round red">Aluminum</div>
+    <div class="color-shape big round blue">Silicon</div>
+    <div class="color-shape big round yellow">Phosphorus</div>
+    <div class="color-shape big square red">Sulfur</div>
+    <div class="color-shape big square blue">Chlorine</div>
+    <div class="color-shape big square yellow">Argon</div>
+    <div class="color-shape tall round red">Potassium</div>
+    <div class="color-shape tall round blue">Calcium</div>
+    <div class="color-shape tall round yellow">Scandium</div>
+    <div class="color-shape tall square red">Titanium</div>
+    <div class="color-shape tall square blue">Vanadium</div>
+    <div class="color-shape tall square yellow">Chromium</div>
+  
+  </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+  </script>
+  <script src="js/isotope-docs.min.js?6"></script>
+  <script src="js/filtering.js"></script>
+
+
+
+</body>
+
+</html>
